@@ -9,9 +9,7 @@ This project rebuilds the ID3 (Iterative Dichotomiser 3) algorithm entirely in P
 At each split, the feature yielding maximum **information gain**—the largest entropy reduction—is selected to partition the dataset.  
 Recursion continues until nodes become pure or stopping thresholds are met.
 
-\[
-IG(S, A) = H(S) - \sum_{v \in values(A)} \frac{|S_v|}{|S|} H(S_v)
-\]
+$IG(S, A) = H(S) - \sum_{v \in \text{values}(A)} \frac{|S_v|}{|S|} H(S_v)$
 
 ---
 
