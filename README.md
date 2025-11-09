@@ -26,7 +26,6 @@ $IG(S, A) = H(S) - \sum_{v \in \text{values}(A)} \frac{|S_v|}{|S|} H(S_v)$
 
 ## Implementation
 ### recursively split using information gain (ID3)
-def predict(self, X):
 
 ### traverse the learned tree to classify samples
 Includes:
